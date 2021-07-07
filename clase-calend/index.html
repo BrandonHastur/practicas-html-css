@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+</head>
+<body>
+    <h1>Calendario</h1>
+    <form action="">
+        <label for="hora">
+            <span>Hora </span>
+            <input type="time" id="hora" name="hora"><!-- for,id,name iguales para usarse en JS-->
+        </label>
+    </form>
+    <form action="">
+        <label for="dia">
+            <span>Dia </span>
+            <input type="date" id="dia" name="dia">
+        </label>
+    </form>
+    <form action="">
+        <label for="semana">
+            <span>Semana </span>
+            <input type="week" id="semana" name="semana">
+        </label>
+    </form>
+    <form action="">
+        <label for="mes">
+            <span>Mes </span>
+            <input type="month" id="mes" name="mes">
+        </label>
+    <input type="submit"> <!-- Input para enviar el formulario -->
+    </form>
+    <!-- Otra forma mas sencilla -->
+    <h4>Otro tipo de Calendario</h4>
+    <form action="">
+        <label for="calendario">
+            <span>Calendario </span>
+            <input type="datetime-local" id="calendario" name="calendario">
+        </label>
+        <input type="submit">
+    </form>
+</body>
+</html>
+<!-- Input types: https://developer.mozilla.org/es/docs/Web/HTML/Element/input -->
