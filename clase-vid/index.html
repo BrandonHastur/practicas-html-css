@@ -8,9 +8,14 @@
 <body>
     <main>
         <section>
-            <video src="./vids/jack.mp4" controls preload="auto"></video> <!-- etiqueta de video -->
+            <video controls preload="auto">  <!-- etiqueta de video -->
+                <source src="./vids/jack.mp4#t=10,30"> <!-- para darle al navegador a elegir el mejor formato para reproducir -->
+                <source src="./vids/jack.m4v#t=10,30">
+            </video>
             <!-- controls (atributo de un solo valor para agregar botones de reproduccion) -->
             <!-- preload (atributo para queel navegador empiece a cargar el video antes de reproducirlo)-->
+            <!-- #t=10,30 indica el segundo de inicio y fin que quiero para el video-->
+
         </section>
     </main>
 </body>
