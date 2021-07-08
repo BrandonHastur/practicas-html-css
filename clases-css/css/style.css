@@ -1,0 +1,17 @@
+p { /* de esta forma indicamos el estilo de la etiqueta parrafo del HTML */
+    font-size: x-large;
+}
+
+/*Class*/
+.titulo{ /*Esta es otra manera de agregar un estilo a un elemento html por class*/
+    font-family: 'Times New Roman', Times, serif;
+    color: crimson;
+    text-align: center;
+}
+
+/*ID*/
+#texto{  /*Esta es otra manera de agregar un estilo a un elemento html por ID*/
+    color: darkslateblue;
+    font-family: monospace;
+    text-align: center;
+}
