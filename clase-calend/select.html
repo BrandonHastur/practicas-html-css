@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <!------------------------------------------------------------------------------>
+        <h1>Opciones de Cursos</h1>
+        <select name="cursos" id=""> <!-- genera un formulario de opciones prestablecidas -->
+            <option value="JavaScript">JavaScript</option> <!-- option: Opcion a elegir -->
+            <option value="HTML5">HTML5</option> <!-- value="El valor que sera enviado a la base de datos"-->
+            <option value="CSS3">CSS3</option>
+            <option value="Web Standards">Web Standards</option>
+        </select>
+        <!------------------------------------------------------------------------------>
+        <!-- buena practica -->
+        <h4>Mejor forma de seleccionar opciones</h4>
+        <input list="cursos"> <!-- uso de atributo list en lugar de type -->
+        <datalist id="cursos"> <!-- uso de etiqueta datalist para agregar las opciones dentro-->
+            <!-- id debe ser igual a list (cursos)-->
+            <option value="JavaScript"></option>
+            <option value="HTML5"></option>
+            <option value="CSS3"></option>
+            <option value="Web Standards"></option>
+        </datalist>
+    </main>
+</body>
+</html>
