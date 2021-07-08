@@ -1,0 +1,29 @@
+.main-nav {
+    margin-top: 10px; /* ajustamos el margen de espacio de arriba */
+    list-style: none; /* eliminamos los puntos de la lista que estan por defecto */
+    padding-left: 0px; /* eliminamos el espaciado izquierdo */
+    background-color: peachpuff; /* color del fondo */
+}
+/*uso de metodologia BEM*/
+.main-nav__item {
+    display: inline-block; /* mostramos la lista en una sola linea */
+}
+.main-nav__item a { /* especificamos que a todas las etiquetas 'a' de .main-nav__item agrege este css */
+    color: black; /* color del texto */
+    padding: 5px; /* ajustamos el espaciado */
+    border-radius: 2px; /* radio del borde del contenedor */
+    text-decoration: none; /* eliminamos el subrayado por defecto */
+}
+/*********** Pseudo Clases : define el estilo de un estado especial de un elemento************/
+.main-nav__item a:hover { /* pseudo clase para activar un efecto cuando el mouse esta sobre el item */
+    color: blue;
+}
+.main-nav__item a:active { /* pseudo clase para activar un efecto cuando se da click */
+    color: red;
+}
+/*********** Pseudo Elementos :: define el estilo de una parte especifica de un elemento ************/
+.main-nav__item a::after { /*  */
+    content: " | "; /* despues del elemento agregale este contenido */
+}
+
+/* Why BEM https://en.bem.info/methodology/faq/#why-bem */

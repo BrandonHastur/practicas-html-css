@@ -1,0 +1,19 @@
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: dodgerblue;
+    font-size: larger;
+}
+nav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.categoria {
+    font-family: serif;
+    color: mediumvioletred;
+    font-size: x-large;
+}
+#nota {
+    font-size: medium;
+    color: midnightblue;
+    font-family: serif;
+}
