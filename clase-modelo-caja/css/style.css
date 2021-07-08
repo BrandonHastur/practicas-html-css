@@ -1,0 +1,14 @@
+/* el asterisco es un selector universal */
+* {
+    box-sizing: border-box; /*suma el padding al borde del elemento (con margin no hace eso)*/
+    padding: 0;
+    margin: 0;
+}
+main {
+    width: 100%;
+    height: 500px;
+    border: 10px solid gray;
+    padding: 20px 35px; /*(un solo valor seria espaciado hacia todos los lados)*/
+        /* arriba/abajo 20px */
+        /* izquierda/derecha 35px */   
+}
