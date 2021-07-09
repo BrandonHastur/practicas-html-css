@@ -1,0 +1,5 @@
+/* Hermano adyacente o cercano*/
+h2 + p { /* agregale esto a todas las etiquetas parrafo que estan acontinuacion de un h2*/
+    color: brown;
+}
+/* Combinadores: Adjacent Siblings (combinators) */
