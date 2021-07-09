@@ -1,0 +1,31 @@
+/*      Clase Medidas       *//*
+main {
+    background-color: brown;
+    width: 70%px; 
+    height: 500px;
+}
+p {
+    font-size: 16px;
+}
+*//*   Clase Medidas EM    
+.text-container {
+    font-size: 1.5em; /* 1.5 veces mas el tamano del padre directo *//*
+}
+.text-container div {
+    font-size: 1.5em;
+}
+*//*   Clase Medidas REM     */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%; /* de esta forma 1.6rem sera igual a 16px (2rem = 20px, 3.4rem = 34px, etc)*/
+}
+p {
+    font-size: 1.6rem; /* 1.6 veces mas el tamano de html */
+}
+main div {
+    font-size: 1.6rem;
+}
