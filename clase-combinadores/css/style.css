@@ -1,5 +1,12 @@
 /* Hermano adyacente o cercano*/
 h2 + p { /* agregale esto a todas las etiquetas parrafo que estan acontinuacion de un h2*/
-    color: brown;
+    
 }
 /* Combinadores: Adjacent Siblings (combinators) */
+
+/* Hermano general */
+h2 ~ p { /* agregale a todas las etiquetas de parrafo que tengan como hermano general un h2 */
+    color: cadetblue; 
+} /* todos lo parrafos que estan a la misma llave que un h2 */
+/* Combinadores: General Sibling */
+
