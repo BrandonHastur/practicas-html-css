@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 1em;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: darkkhaki;
+}
+section {
+    width: 80%; /* width base */
+    min-width: 320px; /* limita el minimo */
+    max-width: 500px;/* limita el crecimiento maximo */
+    min-height: 500px;
+    background-color: darkorange;
+    margin: 0 auto;
+}
