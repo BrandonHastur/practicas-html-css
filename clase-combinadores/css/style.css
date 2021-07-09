@@ -1,12 +1,20 @@
-/* Hermano adyacente o cercano*/
+/* Hermano adyacente o cercano*/ /* Combinadores: Adjacent Siblings (combinators) */
 h2 + p { /* agregale esto a todas las etiquetas parrafo que estan acontinuacion de un h2*/
     
 }
-/* Combinadores: Adjacent Siblings (combinators) */
 
-/* Hermano general */
+/* Hermano general */ /* Combinadores: General Sibling */
 h2 ~ p { /* agregale a todas las etiquetas de parrafo que tengan como hermano general un h2 */
-    color: cadetblue; 
+     
 } /* todos lo parrafos que estan a la misma llave que un h2 */
-/* Combinadores: General Sibling */
 
+/* Hijos */
+main > p { /* a la etiqueta parrafo que sea hija directa de una etiqueta main agregale */
+    color: darkblue;
+}
+/* Descendiente */
+main p { /* a todos los parrafos dentro de la etiqueta main agregales esto*/
+    color: darkorchid;
+}
+
+/* Combinadores: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators */
